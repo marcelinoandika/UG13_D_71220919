@@ -24,10 +24,11 @@ k.goto(-250,0)
 k.pendown()
 k.right
 k.circle(50,360)
-
+k.speed(100)
 k.circle(50,180)
 k.left(180)
-k.forward(60)
+k.forward(90)
+
 for i in range(120):
     k.forward(1)
     k.right(1)
@@ -35,14 +36,14 @@ for i in range(120):
 
 
 k.penup()
-k.goto(180,90)
+k.goto(0,20)
 k.pendown()
-k.left(90)
+k.left(120)
 k.forward(150)
 
 
 k.penup()
-k.goto(90,90)
+k.goto(150,0)
 k.pendown()
 k.right
 k.circle(50,360)
