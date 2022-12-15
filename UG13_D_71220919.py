@@ -20,7 +20,7 @@ k.right(135)
 k.forward(150)
 
 k.penup()
-k.goto(-210,0)
+k.goto(-250,0)
 k.pendown()
 k.right
 k.circle(50,360)
@@ -49,7 +49,7 @@ k.circle(50,360)
 
 k.circle(50,180)
 k.left(180)
-k.forward(60)
+k.forward(90)
 for i in range(120):
     k.forward(1)
     k.right(1)
